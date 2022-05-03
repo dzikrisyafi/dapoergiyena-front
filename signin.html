@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <title>Dapoer Giyena</title>
+
+    <style>
+        @media only screen and (max-width: 600px) {
+            #login-form {
+                padding: 10px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center" style="min-height: 100vh;">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5">
+                        <h2 class="fw-bold text-primary text-center mb-3" style="font-family: 'Poppins', sans-serif;">
+                            Welcome to Dapoer Giyena</h2>
+
+                        <p class="fw-normal text-secondary text-center" style="margin-bottom: 40px;">
+                            Let's get you all set up so you can verify personal account and begin setting up your
+                            profile
+                        </p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3">
+                        <form action="#" id="login-form" method="POST">
+                            <div class="mb-3">
+                                <label for="password" class="form-label">
+                                    <span class="fw-bold">Email</span>
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+
+                            <div class="mb-2">
+                                <label for="password" class="form-label">
+                                    <span class="fw-bold">Password</span>
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <input type="password" name="password" id="password" class="form-control">
+                            </div>
+
+                            <div class="mb-4 text-end">
+                                <small>
+                                    <a href="" class="text-secondary text-decoration-none">Lupa Password?</a>
+                                </small>
+                            </div>
+
+                            <div class="d-grid gap-2 mb-4">
+                                <button type="submit" class="btn fw-bold text-white"
+                                    style="background-color: #181818;">Masuk</button>
+                            </div>
+
+                            <div class="text-center">
+                                <small class="text-secondary">
+                                    Belum punya akun?
+                                    <a href="register.html" class="fw-bold text-primary text-decoration-none">
+                                        Sign Up
+                                    </a>
+                                </small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

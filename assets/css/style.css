@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #181818;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.bg-white {
+    background-color: #FFFFFF !important;
+}
+
+.bg-light {
+    background-color: #FAFAFA !important;
+}
+
+.text-primary {
+    color: #181818 !important;
+}
+
+.text-secondary {
+    color: #B6B6B6 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 600;
+}
+
+#navbarNav .nav-item {
+    margin-right: 10px;
+}
+
+#navbarNav .nav-link {
+    font-weight: 600;
+    color: #B6B6B6;
+}
+
+#navbarNav .nav-link.active {
+    color: #181818;
+}
+
+#navbarNav #register,
+#navbarNav #signin {
+    font-weight: 600;
+}
+
+.navbar-brand span,
+#navbarNav .nav-link,
+#navbarNav a.btn {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#jumbotron {
+    background-color: #FAFAFA;
+}
+
+#jumbotron h1 {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+#jumbotron p.pre-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#jumbotron p.post-subtitle {
+    font-size: 20px;
+    color: #B6B6B6;
+    max-width: 550px;
+    line-height: 24px;
+}
+
+#jumbotron a.btn {
+    font-size: 16px;
+}
+
+#menu-populer h2,
+#category h2 {
+    font-size: 40px;
+}
+
+#menu-populer .subtitle,
+#category .subtitle {
+    font-size: 20px;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image .price {
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0 5px 0 0;
+}
+
+.product-image .price h4 {
+    font-size: 28px;
+}
+
+.product-title {
+    font-size: 24px;
+}
+
+.product-subtitle {
+    font-size: 16px;
+    max-width: 320px;
+}
+
+#category h5 {
+    font-size: 24px;
+}
+
+#category figcaption p {
+    font-size: 16px;
+    max-width: 220px;
+}
+
+#subscribe h5 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#subscribe .input-group {
+    max-width: 620px;
+}
+
+#subscribe input {
+    border-radius: 10px 0 0 10px;
+}
+
+#subscribe button {
+    border-radius: 0 10px 10px 0;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Detail Page CSS */
+
+#featured {
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#detail h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+#detail p {
+    font-size: 18px;
+}
+
+.thumbnail {
+    max-width: 195px;
+    max-height: 125px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    transition: 0.3s ease-out;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+}
+
+#slide-wrapper {
+    max-width: 600px;
+}
+
+#slider {
+    width: 550px;
+    overflow-x: hidden;
+    margin-right: 5px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.arrow:hover {
+    opacity: 0.5;
+    width: 35px;
+    height: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav #signin {
+        margin-top: 5px;
+    }
+
+    #jumbotron h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    #jumbotron p.pre-subtitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #jumbotron p.post-subtitle {
+        font-size: 18px;
+    }
+
+    #jumbotron a.btn {
+        font-size: 14px;
+    }
+
+    #menu-populer h2,
+    #category h2 {
+        font-size: 34px;
+    }
+
+    #menu-populer a.btn {
+        font-size: 14px;
+    }
+
+    #menu-populer .subtitle,
+    #category .subtitle {
+        font-size: 18px;
+    }
+
+    #about #description {
+        padding: 40px;
+    }
+
+    #subscribe h5 {
+        font-size: 24px;
+    }
+
+    #subscribe {
+        padding: 10px;
+    }
+
+    #detail h2 {
+        margin-top: 30px;
+        font-size: 32px;
+    }
+
+    #detail h3 {
+        font-size: 24px;
+    }
+
+    #detail p {
+        font-size: 16px;
+    }
+}
